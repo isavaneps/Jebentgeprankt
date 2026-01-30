@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(images/background3.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1500%; 
+    display: flex;
+    justify-content: center;
+    color: darkred;
+}
+ 
+body p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 350%;
+    margin: 1em 3em 1em 3em;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 1em;
+}
+
+img {
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 800%;
+    color: darkgreen;
+    text-shadow:
+    -3px -3px 3px #FFFF,
+    3px -3px 3px #FFFF,
+    -3px 3px 3px #FFFF,
+    3px 3px 3px #FFFF;  
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 600%;
+    color: darkgreen;
+    display: flex;
+    justify-content: center;
+    text-shadow:
+    -3px -3px 3px #FFFF,
+    3px -3px 3px #FFFF,
+    -3px 3px 3px #FFFF,
+    3px 3px 3px #FFFF; 
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+button img {
+    width: 70%;
+    display: flex;
+}
+
+.bds img {
+    width: 90%;
+    display: flex;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+    
+}
+
+div button {
+    margin-right: 20em;
+}
+
+
+
+/* =========================
+   MOBIEL (max 768px)
+   ========================= */
+   @media (max-width: 768px) {
+
+    body {
+        background-position: center;
+    }
+
+    h1 {
+        font-size: 300%;
+        text-align: center;
+        padding: 0.5em;
+    }
+
+    h2 {
+        font-size: 200%;
+        text-align: center;
+        text-shadow:
+        -1px -1px 1px #FFFF,
+        1px -1px 1px #FFFF,
+        -1px 1px 1px #FFFF,
+        1px 1px 1px #FFFF;  
+    }
+
+    h3 {
+        font-size: 150%;
+        text-align: center;
+        text-shadow:
+        -1px -1px 1px #FFFF,
+        1px -1px 1px #FFFF,
+        -1px 1px 1px #FFFF,
+        1px 1px 1px #FFFF;
+    }
+
+    body p {
+        font-size: 80%;
+        margin: 1em;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    button img {
+        width: 50%;
+    }
+
+    .bds img {
+        width: 70%;
+    }
+
+    div {
+        flex-direction: row;
+        margin-bottom: 2em;
+    }
+
+    div button {
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+}
